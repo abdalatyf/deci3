@@ -1,0 +1,8 @@
+:root {
+  --main-color: #232436;
+  --sec-color: #ffd050;
+  --third-color: #8768c1;
+  --main-color-8: rgb(35, 36, 54, 0.8);
+  --img-1: url("./imgs/car1.jpg");
+  --img-2: url("./imgs/car2.jpg");
+}

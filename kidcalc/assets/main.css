@@ -1,0 +1,176 @@
+@import url("./normalize.css");
+@import url("./theme1.css");
+@import url("./theme2.css");
+@import url("./theme3.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.log-in {
+  padding: 35px 0;
+  background-color: var(--sec-color);
+  background-size: auto calc(100% / 3);
+  background-image: var(--img-1);
+}
+.log-in .container {
+  max-width: 500px;
+  padding: 50px;
+  background-color: var(--main-color-8);
+  border-radius: 20px;
+  position: relative;
+  z-index: 2;
+  color: var(--sec-color);
+}
+.log-in .container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.log-in h1 {
+  text-align: center;
+}
+.log-in .container form {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.log-in .container form input {
+  padding: 10px 20px;
+}
+.log-in .container form select {
+  padding: 10px 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+.log-in .container form label {
+  font-size: 12px;
+}
+.log-in form input[type="submit"] {
+  background-color: var(--main-color);
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 15px;
+}
+.log-in form input[type="submit"]:hover {
+  color: var(--main-color);
+  background-color: var(--sec-color);
+}
+
+.kidcalc {
+  padding: 35px 0;
+  background-color: var(--sec-color);
+  background-size: auto calc(100% / 3);
+  background-image: var(--img-2);
+}
+.kidcalc h1 {
+  text-align: center;
+  color: var(--sec-color);
+}
+.kidcalc .container {
+  max-width: 500px;
+  background-color: var(--main-color-8);
+  padding: 30px 20px;
+  border-radius: 20px;
+}
+.kidcalc input {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.kidcalc .nums-operators {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.kidcalc .nums-operators span {
+  cursor: pointer;
+  background-color: var(--main-color);
+  padding: 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.kidcalc .nums-operators span:not(.clear) {
+  color: white;
+}
+.kidcalc .nums-operators span:hover:not(.clear) {
+  background-color: var(--third-color);
+  color: white;
+}
+
+.kidcalc .clear {
+  color: tomato;
+}
+.kidcalc .clear:hover {
+  background-color: tomato;
+  color: var(--main-color);
+}
+.kidcalc .submit {
+  grid-column: 1/5;
+}
+.info {
+  background-color: var(--third-color);
+  padding: 35px 0;
+  color: white;
+}
+.info .container {
+  max-width: 500px;
+  padding: 20px;
+  background-color: var(--main-color);
+}
+.info .name,
+.info .counter {
+  color: var(--sec-color);
+  font-weight: bold;
+}
+/* 
+
+
+
+
+
+
+*/
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}

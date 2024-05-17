@@ -1,0 +1,52 @@
+body > .post {
+  padding: 65px 0;
+}
+body > .post h2 {
+  margin-bottom: 30px;
+}
+body > .post .title {
+  margin-bottom: 20px;
+}
+body > .post .info {
+  display: flex;
+  width: 200px;
+}
+body > .post .info img {
+  width: 50px;
+  margin-right: 20px;
+}
+body > .post .info .name {
+  font-size: 22px;
+  font-weight: bold;
+}
+body > .post .info .address {
+  font-size: 12px;
+}
+body > .post p {
+  min-width: 400px;
+}
+body > .post .img {
+  padding: 35px 0;
+}
+body > .post .img img {
+  width: 100%;
+}
+article {
+  margin-bottom: 30px;
+}
+article .box {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  article .box {
+    flex-direction: column;
+  }
+  .img {
+    display: none;
+  }
+  body > .post p {
+    min-width: 0;
+  }
+}

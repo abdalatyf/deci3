@@ -1,0 +1,8 @@
+:root {
+  --main-color: #03444a;
+  --sec-color: #e2ad39;
+  --third-color: #097275;
+  --main-color-8: rgb(3, 68, 74, 0.8);
+  --img-1: url("./imgs/dyno1.jpg");
+  --img-2: url("./imgs/dyno2.jpg");
+}

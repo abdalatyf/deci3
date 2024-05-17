@@ -1,0 +1,8 @@
+:root {
+  --main-color: #333;
+  --sec-color: #e23636;
+  --third-color: #504a4a;
+  --main-color-8: rgb(51, 51, 51, 0.8);
+  --img-1: url("./imgs/marvel1.jpg");
+  --img-2: url("./imgs/marvel2.jpg");
+}
